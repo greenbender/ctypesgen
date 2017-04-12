@@ -20,6 +20,7 @@ setup(name='ctypesgen',
     packages=['ctypesgencore',
         'ctypesgencore.parser',
         'ctypesgencore.printer_python',
+        'ctypesgencore.printer_python.preamble',
         'ctypesgencore.printer_json',
         'ctypesgencore.processor'],
     scripts=['ctypesgen.py'])
